@@ -3,7 +3,6 @@ import styles from "./page.module.css";
 import circel from "../../public/R-tron.png";
 import image from "../../public/image.png";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function Home() {
 
