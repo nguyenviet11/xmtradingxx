@@ -16,7 +16,7 @@ export default function page() {
     <div>
       <main className={styles.main}>
         <h3 className={styles.text}>
-        XMTrading™ Official Site{" "}
+        XMTrading™ - (エックスエム) 公式サイト{" "}
           <span
             style={{ transform: "translate(0px)", display: "inline-block" }}
           >
@@ -24,16 +24,16 @@ export default function page() {
           </span>
         </h3>
         <p className={styles.text2}>
-          Checking if the site connection is secure
+          サイトの接続が安全か確認しています
         </p>
         <p className={styles.text3}>
-          We needs to review the security of your connection before proceeding
-          XMTrading™
+        続行する前に接続のセキュリティを確認する必要があります。
+        XMTrading™ - (エックスエム)
         </p>
         <div style={{ marginTop: 30 }}>
-          <span style={{display: 'inline-block', transform: 'translateY(8px)'}}><FcOk fontSize={30}/></span><span style={{marginLeft: 5}}>Sucure connection</span>
+          <span style={{display: 'inline-block', transform: 'translateY(8px)'}}><FcOk fontSize={30}/></span><span style={{marginLeft: 5}}>安全な接続</span>
         </div>
-        <p className={styles.text4}>Proceeding...</p>
+        <p className={styles.text4}>続行中。。。</p>
        
       </main>
     </div>
